@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мой сайт</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff5f7;
+  color: #333333;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Шапка сайта */
+.header {
+  background: white;
+  border-bottom: 1px solid #ffd1dc;
+  padding: 15px 0;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #d63384;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #d63384;
+}
+
+/* Карточка статьи */
+.article-card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(214, 51, 132, 0.08);
+  margin-bottom: 50px;
+}
+
+.tag {
+  display: inline-block;
+  background: #ffe3ec;
+  color: #d63384;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #d63384;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border: 2px solid #ffd1dc;
+}
+
+.date {
+  color: #888;
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+blockquote {
+  border-left: 4px solid #d63384;
+  margin: 30px 0;
+  padding-left: 20px;
+  font-style: italic;
+  color: #555;
+  background: #fff9fb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Кнопка Лайка */
+.like-btn {
+  background: #ffe3ec;
+  color: #d63384;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.2s;
+  margin-top: 20px;
+}
+
+.like-btn:hover {
+  background: #ffccd8;
+  transform: translateY(-2px);
+}
+  </style>
+</head>
+<body>
+  <header class="header">
+  <div class="container nav-container">
+    <div class="logo">🍰 Сладкая Жизнь</div>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#">Рецепты</a>
+      <a href="#">О проекте</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <article class="article-card">
+    <div class="tag">Кулинария • Десерты</div>
+    <h1>Искусство идеального завтрака: как приготовить нежнейшие домашние сырники</h1>
+    
+    <div class="author-info">
+      <div>
+        <strong>Адамакунова Азуми</strong>
+        <span class="date">• 4 ноября 2026</span>
+      </div>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800" alt="Сырники" class="cover-image">
+
+    <div class="content">
+      <p>Мягкие, воздушные, умеренно сладкие и тающие во рту сырники — это подлинная классика домашней кулинарии. Это блюдо способно превратить обычное утро в маленький праздник, а вечернее чаепитие сделать по-настоящему уютным. Однако за внешней простотой этого рецепта скрываются важные нюансы, знание которых отделяет обычную творожную лепешку от шедевра кулинарного искусства.</p>
+      
+      <h2>Почему сырники не всегда получаются идеальными?</h2>
+      <p>Каждой хозяйке знакома ситуация, когда тесто вроде бы замешено правильно, но на сковороде заготовки начинают расплываться, превращаясь в бесформенную массу, или получаются слишком плотными «резиновыми» шайбочками. Главная причина кроется в балансе влаги и количестве связующих компонентов.</p>
+
+      <h2>Необходимые ингредиенты:</h2>
+      <ul>
+        <li><strong>Качественный творог (5% или 9% жирности):</strong> 400 г (сухой, не водянистый);</li>
+        <li><strong>Куриное яйцо:</strong> 1 крупное (или 2 желтка для пущей нежности);</li>
+        <li><strong>Сахар:</strong> 2 столовые ложки (не переборщите, иначе сахар начнет плавиться и сырники подгорят);</li>
+        <li><strong>Ванильный сахар или экстракт ванили:</strong> по вкусу;</li>
+        <li><strong>Пшеничная мука:</strong> 3-4 столовые ложки в тесто + немного для панировки;</li>
+        <li><strong>Щепотка соли:</strong> подчеркнет сладость и сбалансирует вкус.</li>
+      </ul>
+
+      <blockquote>
+        «Главный секрет профессиональных шеф-поваров: идеальный творог для сырников не должен содержать лишней сыворотки. Если творог влажный, заверните его в марлю и слегка отжмите перед началом готовки.»
+      </blockquote>
+
+      <h2>Пошаговый процесс приготовления:</h2>
+      <p><strong>Шаг 1. Подготовка основы.</strong> Выложите творог в глубокую миску. Если в нем чувствуются крупные жесткие крупинки, обязательно протрите его через металлическое сито или пробейте погружным блендером. Это сделает текстуру будущих сырников однородной и кремовой.</p>
+      <p><strong>Шаг 2. Замешивание теста.</strong> Добавьте к творогу яйцо, обычный и ванильный сахар, а также щепотку соли. Тщательно перемешайте вилкой или лопаткой до объединения. Не используйте миксер на высокой скорости — масса станет слишком жидкой.</p>
+      <p><strong>Шаг 3. Добавление муки.</strong> Всыпьте просеянную муку. Вмешивайте её аккуратно и быстро. Помните: чем меньше муки в тесте, тем нежнее получатся сырники.</p>
+      <p><strong>Шаг 4. Формовка.</strong> Присыпьте рабочую поверхность мукой. Скатайте из творожной массы небольшой шарик, выложите его на стол и с помощью ножа или специальной лопатки «подкатайте» в аккуратную аккуратную шайбочку.</p>
+      <p><strong>Шаг 5. Обжаривание.</strong> Разогрейте сковороду с небольшим количеством растительного (или смеси растительного и сливочного) масла на среднем огне. Обжаривайте сырники по 3-4 минуты с каждой стороны до красивой золотистой корочки, затем можно накрыть сковороду крышкой и подержать на минимальном огне еще пару минут.</p>
+
+      <h2>💡 Профессиональные секреты и хитрости:</h2>
+      <ul>
+        <li><strong>Использование манной крупы:</strong> Вместо части муки в тесто можно добавить манную крупу и дать постоять 10-15 минут. Манка разбухнет и впитат лишнюю влагу, сделав структуру пористой и воздушной.</li>
+        <li><strong>Запекание в духовке:</strong> Если вы следите за калориями или не хотите использовать много масла, выложите сформированные сырники на противень, застеленный пергаментом, и запекайте при 180°C около 15-20 минут.</li>
+        <li><strong>Идеальная подача:</strong> Подавайте горячие сырники со сметаной, греческим йогуртом, свежими ягодами (малина, голубика), липовым медом или домашним ягодным соусом.</li>
+      </ul>
+
+      <p>Экспериментируйте с рецептурой, добавляйте в середину ягоду или кусочек шоколада — и каждый раз ваши близкие будут в восторге от этого прекрасного десерта!</p>
+    </div>
+
+    <button id="likeBtn" class="like-btn">❤️ Обожаю этот рецепт: <span id="likeCount">0</span></button>
+  </article>
+</main>
+
+  <script>
+    let count = 0;
+const likeBtn = document.getElementById('likeBtn');
+const likeCount = document.getElementById('likeCount');
+
+likeBtn.addEventListener('click', () => {
+  count++;
+  likeCount.textContent = count;
+});
+  </script>
+</body>
+</html>
